@@ -1,6 +1,6 @@
 {
   "osrm":{
-    "branch":"v0.4.2"
+    "branch":"v0.4.3"
   },
   "run_list": [
     "recipe[osrm]"
