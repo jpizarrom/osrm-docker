@@ -2,7 +2,12 @@ FROM jpizarrom/docker-chef-client
 
 MAINTAINER Juan Pizarro "jpizarrom@gmail.com"
 
-RUN apt-get -y update
+RUN apt-get -yqq update
+
+RUN apt-get -yqq install build-essential git cmake pkg-config libprotoc-dev libprotobuf8 \
+protobuf-compiler libprotobuf-dev libosmpbf-dev libpng12-dev \
+libbz2-dev libstxxl-dev libstxxl-doc libstxxl1 libxml2-dev \
+libzip-dev libboost-all-dev lua5.1 liblua5.1-0-dev libluabind-dev libluajit-5.1-dev libtbb-dev
 
 ADD . /chef
 
