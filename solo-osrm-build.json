@@ -1,6 +1,6 @@
 {
   "osrm":{
-    "branch":"v4.8.1"
+    "branch":"v5.2.6"
   },
   "run_list": [
     "recipe[osrm]"
