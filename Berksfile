@@ -1,2 +1,2 @@
 source 'https://supermarket.getchef.com'
-cookbook 'osrm', '~> 0.3.3'
+cookbook 'osrm', '~> 5.2.1'
